@@ -1,0 +1,119 @@
+html, body { 
+background: #e0e0e0;
+margin: 0;
+padding: 0;
+}
+
+body { 
+position: relative;
+margin: 20px auto;
+padding: 20px;
+width: 900px;
+background: white;
+box-sizing: border-box;
+font-family: Helvetica;
+font-size: 12px;
+border: 1px solid #888;
+}
+
+p { 
+margin: 10px 0;
+padding: 0;
+ }
+h1 { 
+margin: 0 0 10px 0;
+border-bottom: 1px solid #888;
+padding: 0 0 5px 0;
+}
+h2 { 
+margin: 0 0 10px 0;
+padding: 0 0 5px 0;
+}
+
+textarea {
+box-sizing: border-box; 
+resize: none;
+border: 0;
+width: 418px;
+height: 500px;
+}
+
+div.clear { 
+clear: both;
+ }
+/* style letter boxes */
+div.letter { 
+float: left;
+width: 62px;
+border: 1px solid #888;
+box-sizing: border-box;
+padding: 4px;
+margin: 4px 4px 0 0;
+}
+div.letter div.orgletr { 
+font-size: 18px;
+height: 29px;
+line-height: 25px;
+}
+div.letter div.subletr { 
+float: right;
+width: 25px;
+height: 29px;
+line-height: 25px;
+text-align: right;
+}
+div.letter div.orgfreq { 
+height: 16px;
+line-height: 16px;
+font-weight: bold;
+}
+div.letter div.engfreq { 
+line-height: 16px;
+font-style: italic;
+}
+div.letter input { 
+box-sizing: border-box;
+width: 25px;
+height: 25px;
+border: 1px solid #888;
+text-align: center;
+}
+/* style digrams/trigrams */
+div.igram { 
+float: left;
+width: 62px;
+border: 1px solid #888;
+box-sizing: border-box;
+padding: 4px;
+margin: 4px 4px 0 0;
+}
+div.igram div.gram { 
+font-size: 18px;
+height: 29px;
+line-height: 25px;
+ }
+div.igram div.freq { 
+height: 16px;
+line-height: 16px;
+ }
+
+div#boxcipher {
+border-right: 1px dashed #888;
+box-sizing: border-box;
+float: left;
+width: 424px;
+margin-right: 5px;
+}
+div#boxplain { 
+box-sizing: border-box;
+float: left;
+width: 429px;
+}
+
+div#footer { 
+margin-top: 20px;
+border-top: 1px solid #888;
+padding-top: 20px;
+color: #888;
+text-align: right;
+}
